@@ -13,3 +13,21 @@ int main() {
 int: "int" C dilinde bir veri türünü ifade eder. "int," tam sayıları (integer) temsil etmek için kullanılır. Örneğin, "int" değişkenleri tamsayı değerlerini saklamak için kullanılır. "int" veri türü, programlarda sayılarla işlem yapmak ve değerler tutmak için temel bir veri türüdür.
 
 Bu temel kavramlar, C programlarının temel yapısını oluştururlar ve programların mantığını, giriş-çıkış işlemlerini ve veri manipülasyonunu kontrol etmek için kullanılırlar.
+
+
+"unistd.h" başlık dosyası, C dilinde sistem düzeyi programlama yaparken kullanılan önemli bir başlık dosyasıdır ve işletim sistemi kaynaklarını yönetmek için gerekli olan işlevleri ve sembolleri sağlar.
+read ve write: Dosyadan veya diğer dosya tanıtıcılarından veri okuma ve yazma işlemleri için kullanılır.
+
+open ve close: Dosyaları açma ve kapatma işlemleri için kullanılır.
+
+fork ve exec: Yeni işlemler oluşturmak ve diğer programları çalıştırmak için kullanılır.
+
+pipe: İşlem arasında iletişim kurmak için boru (pipe) oluşturur.
+
+dup ve dup2: Dosya tanıtıcılarını kopyalamak veya yönlendirmek için kullanılır.
+
+chdir ve getcwd: Çalışma dizinini değiştirmek veya sorgulamak için kullanılır.
+
+access: Dosya ve dizinlere erişim izinlerini kontrol etmek için kullanılır.
+
+sleep ve usleep: Belirli bir süre boyunca programın uyumasını sağlamak için kullanılır.
