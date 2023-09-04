@@ -1,0 +1,15 @@
+void: "void" C dilinde bir işlevin dönüş türünü belirtmek için kullanılır. Eğer bir işlev "void" dönüş türüne sahipse, bu işlev herhangi bir değer döndürmez. Yani, işlevin sonunda "return" ifadesi kullanılmaz veya kullanılsa bile herhangi bir değer döndürülmez.
+
+main: "main" işlevi C programının giriş noktasını temsil eder. Her C programının bir "main" işlevi olmalıdır. Programın çalışmasına başladığında, işletim sistemi "main" işlevini çağırır ve program bu noktadan başlar. "main" işlevi genellikle aşağıdaki gibi bir şekilde tanımlanır:
+
+c
+Copy code
+int main() {
+    // Programın ana kodu burada bulunur
+    return 0; // İşlem başarılı bir şekilde tamamlandığını belirtmek için 0 değeri döndürülür.
+}
+"main" işlevi C programının ana mantığını içerir ve programın geri kalan kodları buradan çağrılır.
+
+int: "int" C dilinde bir veri türünü ifade eder. "int," tam sayıları (integer) temsil etmek için kullanılır. Örneğin, "int" değişkenleri tamsayı değerlerini saklamak için kullanılır. "int" veri türü, programlarda sayılarla işlem yapmak ve değerler tutmak için temel bir veri türüdür.
+
+Bu temel kavramlar, C programlarının temel yapısını oluştururlar ve programların mantığını, giriş-çıkış işlemlerini ve veri manipülasyonunu kontrol etmek için kullanılırlar.
