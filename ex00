@@ -10,3 +10,4 @@ int	main(void)
 	ft_putchar('m');
 	return (0);
 }
+
